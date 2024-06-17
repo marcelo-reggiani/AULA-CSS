@@ -1,0 +1,56 @@
+/* Propriedades de Font e Texto */
+
+html {
+  font-size: 12px;
+}
+
+body {
+  /* Define uma lista de fonts a ser usada no site */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 900; /* thin - Black */
+  text-decoration: line-through;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 30px;
+  /* hexadecimal / rgb / rgba  (hexadecimal é mais especifico) */
+  color: rgb(236, 161, 23);
+  font-size: 2rem;
+}
+
+/*  - Unidades Absolutas (px, cm, pt, etc)
+    - Unidades Relativas  
+        vh = Viewport Height (Altura da Tela)
+        vw = Viewport Width (Largura da Tela)
+        em = 
+        rem = Relativo ao elemento Raiz (mais usado em textos)
+        % = Relativo ao elemento Pai  no exemplo a section e o body é o elemento pai
+*/
+
+.quadrado1 {
+  background-color: royalblue;
+  width: 150px;
+  height: 150px;
+}
+
+.quadrado2 {
+  background-color: chartreuse;
+  width: 50vw;
+  height: 20vh;
+}
+
+.quadrado3 {
+  background-color: tomato;
+  width: 60%;
+  height: 40%;
+}
+
+.quadrado4 {
+  background-color: violet;
+  height: 200px;
+  width: 200px;
+}

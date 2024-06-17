@@ -1,0 +1,38 @@
+
+/*  #  chama o id o id usa em um elemento unico  e o  PONTO (.)  Chama a classe = usa em varios elementos */
+/* A ordem que os seletores são criados no CSS influencia na prioridade no HTML */
+/* !important = Ignora as prioridades do CSS e aplica no seletor todo independente da prioridade dele. */
+/* Especificidade = ELEMENTO - CLASSE - ID */
+
+
+/* Seletor de elementos = Todosos elementos da página recebem o estilo */
+p {
+  color: blue;
+}
+
+/* Seletor de Classes = Elementos com atributo class recebem o estilo - Usa quando quer repetir em varios elementos */
+.destaque {
+  background-color: yellow;
+  color: red;
+}
+
+.texto-centro {
+  text-align: center;
+  color: black;
+}
+
+/* Seletor de ID = Elementos com o ID informado recebem o estilo - Usa quando quer atribuir a um elemento especifico */
+#paragrafo {
+  color: red;
+  text-align: right;
+  background-color: aqua;
+}
+
+body {
+  /* herança. Propriedade é passada a diante caso não tenha outra especificação */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: monospace;
+}
