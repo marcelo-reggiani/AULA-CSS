@@ -26,7 +26,7 @@ p {
     - Unidades Relativas  
         vh = Viewport Height (Altura da Tela)
         vw = Viewport Width (Largura da Tela)
-        em = 
+        em = Relativo ao ancestral. Exemplo classe sessão ou a div (NÃO È MUITO USADO)
         rem = Relativo ao elemento Raiz (mais usado em textos)
         % = Relativo ao elemento Pai  no exemplo a section e o body é o elemento pai
 */

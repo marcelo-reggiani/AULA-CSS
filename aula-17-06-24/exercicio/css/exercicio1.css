@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(198, 239, 239);
+}
+
+#titulo-principal {
+  text-align: center;
+  background-color: aqua;
+  box-shadow: 10px 10px 5px 0px rgb(142, 142, 243);
+}
+
+.texto-introducao {
+  text-align: center;
+  width: 400px;
+  margin: 16px auto;
+  padding: 16px 16px 16px 16px;
+  border-radius: 10px;
+  background: linear-gradient(65deg, rgb(235, 117, 117), rgb(229, 193, 126));
+}
+
+.caixa {
+  width: 400px;
+  margin: 16px auto;
+  padding: 16px 16px 16px 16px;
+  border-radius: 10px;
+  background: linear-gradient(65deg, rgb(235, 117, 117), rgb(229, 193, 126));
+}
+
+.caixa p {
+  text-align: center;
+}
+
+figure {
+  width: 400px;
+  margin: 16px auto;
+  padding: 16px 16px 16px 16px;
+  border-radius: 10px;
+  background: linear-gradient(65deg, rgb(235, 117, 117), rgb(229, 193, 126));
+}
+
+img {
+  width: 300px;
+  margin: 16px 16px;
+  height: 50;
+  box-shadow: 10px 10px 5px 0px gray;
+}
+
+figcaption {
+  text-align: center;
+}
