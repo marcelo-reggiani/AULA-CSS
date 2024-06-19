@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.item-1 {
+  background-color: orange;
+}
+
+.item-2 {
+  background-color: brown;
+}
+
+.item-3 {
+  background-color: gold;
+  /* align-self: flex-start;  DEFINE o ALINHAMENTO INDIVIDUAL DO EIXO CROSS - SOBREPOEM O ALING-ITEM  valores: flex-start, flex-end, center, stretch */
+}
+
+.item-4 {
+  background-color: hotpink;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+  width: 200px;
+  padding: 8px;
+}
+
+.container {
+  background-color: darkcyan;
+  /* padding: 8px; */
+  display: flex; /* Ativa o Flexbox */
+  flex-direction: row; /* Define de é ROW (HORIZONTAL)  ou  COLUMN (VERTICAL)*/
+  flex-wrap: wrap; /* Define se ha quebra de linha ao faltar espaço na pagina */
+  justify-content: center; /* Ajuda os elementos no eixo MAIN (horizontalmente) valores:  start, end, center, space-between, space-around, space-evenly */
+  align-items: center;/* Ajustar os elementos no eixo CROSS (verticalmente) valores: stretch, flex-start, flex-end, center */
+  height: 100vh;
+  align-content: center;/* Controla as linhas */
+  gap: 16px; /* Cria o espaço entre os elementos*/
+}
