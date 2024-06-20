@@ -75,8 +75,11 @@ input {
 }
 
 .cronograma {
+  width: 100%;
   width: 800px;
   margin: auto;
+  padding: 12px;
+  overflow-x: auto;
 }
 
 table {
@@ -127,6 +130,6 @@ th {
 }
 @media (max-width: 200px) {
   .cronograma table {
-    display: none;
+    /* display: none; */
   }
 }
