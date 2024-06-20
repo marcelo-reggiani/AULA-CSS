@@ -35,3 +35,63 @@ html {
 .nav-links a:hover {
   color: #d9b800;
 }
+
+/* NavBar e NavBar responsiva */
+@media (max-width: 480px) {
+  /* Mudanças: 1) Trocar navbar de row p/ column, 2) Redefinir a altura, 3) Alinhar elementos */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .navbar img { /* Ajusar Largura */
+    width: 156px;
+  }
+
+  .nav-links { /* Row para Colum */
+    flex-direction: column;
+  }
+}
+
+/* Seção de cards responsivos */
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.section-card {
+  width: 320px;
+  display: flex;
+  padding: 16px;
+  background-color: wheat;
+  gap: 16px;
+  border-radius: 10px;
+}
+
+.section-card img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.section-card p {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .section-card {
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+  }
+  .section-card img {
+    width: 100%;
+  }
+  .section-card p {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+
+/* Media Query = Regra Especial - É aplicada se uma condição for atingida (responsividade) sintaxe:
+      @media condição {
+        //Estilos a serem aplicados quando a condição for verdadeira
+      }
+*/
+
+/* Se a largura estiver no márximo 480 px vai ser aplicado o estilo dentro */
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media  (min-width:481px) and (max-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    background-color: pink;
+  }
+}
